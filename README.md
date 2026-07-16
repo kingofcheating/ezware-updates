@@ -1,51 +1,44 @@
-# ezware Updates
+# ezware
 
-Official release channel for ezware, including stable downloads, update history, and compatibility improvements.
+The official place to download ezware and see what changed.
 
-[Download the newest stable release](https://github.com/kingofcheating/ezware-updates/releases/latest)
+**[Download the latest version](https://github.com/kingofcheating/ezware-updates/releases/latest)**
 
-## Why use the latest release?
+## What's included
 
-The newest build delivers a cleaner startup experience, more reliable updates, durable configuration storage, and smoother rendering across a wide range of computers.
+- A clean startup screen that shows the Roblox connection and update status
+- FPS options for 60, 144, 165, 240, 360, or Unlimited
+- Smooth menus and animations with text that fits correctly
+- Settings for the menu, colors, crosshair, FPS counter, and on-screen effects
+- Configs that you can save, load, edit, and use automatically when ezware starts
+- Config backups to help recover your settings if a save fails
+- Support for configs made with older versions
+- An update checker that shows your version and the newest version
+- A button on the startup screen that opens the latest release
+- Clear messages when an update is checked, downloaded, or fails
+- Better performance on both lower-end PCs and high-refresh-rate monitors
+- Runs as a separate Windows app and does not inject a DLL into Roblox
 
-## Highlights
+## Configs
 
-- **Clear startup experience** — balanced layout, readable status text, polished transitions, and controls designed to avoid clipping or overlap.
-- **Rendering-rate selector** — choose 60, 144, 165, 240, 360 FPS, or Unlimited. This controls rendering throughout the desktop overlay.
-- **Responsive performance** — frame pacing is tuned for high-refresh-rate displays while avoiding unnecessary CPU and GPU load.
-- **Automatic update checks** — startup checks GitHub for a newer stable version and reports the installed and latest versions clearly.
-- **Direct release access** — the startup screen includes a button that opens the newest release page.
-- **Useful update feedback** — connection, version-check, download, validation, and restart results are shown clearly.
-- **Durable configuration profiles** — save, load, update, and choose an automatic startup profile.
-- **Protected config storage** — profiles are kept under the user's local application-data folder instead of temporary storage, so clearing temporary files does not remove them.
-- **Atomic saves and recovery** — backup and recovery handling reduces the chance of losing a profile if a save is interrupted.
-- **Older-config migration** — compatible legacy profiles are detected and migrated into the current storage location.
-- **Config compatibility** — the loader supports current and older supported profile formats.
-- **Customizable overlay UI** — adjustable menu appearance, on-screen feedback, colors, crosshair, FPS display, and visual previews.
-- **Standalone external architecture** — runs as a separate Windows desktop application and does not inject a DLL into Roblox.
-- **Compatibility-focused startup** — clear Roblox connection status, retry handling, font fallback, and automatic overlay alignment.
-- **Stable cleanup** — overlay and graphics resources are released cleanly when the application exits.
-
-## Updating
-
-1. Open the [latest release](https://github.com/kingofcheating/ezware-updates/releases/latest).
-2. Download `ezware.exe`.
-3. Replace the older executable and launch the new version.
-
-The built-in checker will also notify you when a newer stable release is available.
-
-## Configuration location
-
-Current profiles are stored in:
+Your configs are saved here:
 
 `%LocalAppData%\ezware\Vault`
 
-Do not store profiles beside temporary downloads if you want them to remain available long term.
+They are not stored in a temporary folder, so clearing temporary files will not remove them. Older configs are moved to the new folder when possible.
 
-## Current stable version
+## How to update
+
+1. Open the [latest release](https://github.com/kingofcheating/ezware-updates/releases/latest).
+2. Download `ezware.exe`.
+3. Replace your old file with the new one.
+
+ezware also checks for updates when it starts.
+
+## Latest version
 
 **v1.0.2 — Stable External Update**
 
-See the [v1.0.2 release notes](https://github.com/kingofcheating/ezware-updates/releases/tag/v1.0.2) for the complete change history.
+[Read the v1.0.2 update notes](https://github.com/kingofcheating/ezware-updates/releases/tag/v1.0.2)
 
-> Use software responsibly and follow the rules and terms that apply to the software and services you use.
+Use ezware responsibly and follow the rules of the games and services you use.
