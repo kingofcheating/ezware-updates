@@ -102,3 +102,17 @@ Before running a download:
 
 | Version | Microsoft Defender | Code signing |
 | :--- | :--- | :--- |
+
+| **v1.0.4** | No threats found during the release review | Not digitally signed |
+
+```text
+SHA-256  DE76A1B52F464C6639ACEF5340C24D03A59F0AF6539A6373841C0B1B9202461F
+```
+
+This result applies only to the official file with that exact hash. It is not a guarantee for modified or reuploaded copies.
+
+---
+
+<p align="center">
+  <sub>◆ ezware · Windows x64 · official releases only</sub>
+</p>
