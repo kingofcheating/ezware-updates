@@ -71,6 +71,21 @@
 
 </details>
 
+## Current development
+
+The next app build expands customization and quality-of-life controls:
+
+- Privacy mode with an **F10** shortcut for hiding player and profile names
+- Configurable watermark with FPS, profile, position, and visibility controls
+- Menu scale and opacity controls
+- Notification position, duration, scale, and optional sounds
+- Efficient, Balanced, and Responsive performance presets
+- Live diagnostics for connection, process, entities, viewport, frame time, and offsets
+- Saved preferences with automatic migration from older profile versions
+- Expanded box, label, snapline, health-bar, crosshair, hit-marker, and FPS styling
+
+> These changes are present in the current development build. Downloadable release assets are updated separately.
+
 ## Getting started
 
 1. Open the [latest release](https://github.com/kingofcheating/ezware-updates/releases/latest).
