@@ -1,3 +1,59 @@
+# ezware
+
+The official place to download ezware, view updates, and read the latest release notes.
+
+> **Educational use only:** ezware is provided for learning and authorized testing. Do not use it in live or public games. Always follow Roblox's Terms of Use and the rules of any game or service you use.
+
+**[Download the latest version](https://github.com/kingofcheating/ezware-updates/releases/latest)**
+
+---
+
+# What's included
+
+* Clean startup screen with Roblox connection and update status
+* FPS options for 60, 144, 165, 240, 360, or Unlimited
+* Smooth menus and animations with properly scaled text
+* Customizable menu, colors, crosshair, FPS counter, and visual settings
+* Configs you can save, load, edit, and automatically load on startup
+* Automatic config backups to help recover from failed saves
+* Support for configs from older versions
+* Configurable Aimbot with FOV, smoothness, target part, team check, and sticky target settings
+* Silent Aim with improved click handling and rapid-click queuing
+* Triggerbot with adjustable radius, delay, cooldown, and team check
+* Improved camera, target selection, projection, and input handling
+* Built-in update checker that shows your current version and the latest available release
+* Quick button to open the newest GitHub release
+* Clear update status messages for checking, downloading, and errors
+* Better performance on both lower-end PCs and high refresh-rate monitors
+* Runs as a separate Windows application without injecting a DLL into Roblox
+
+---
+
+# Configs
+
+Your configs are stored here:
+
+```text
+%LocalAppData%\ezware\Vault
+```
+
+They aren't stored in a temporary folder, so clearing temporary files won't delete them. If possible, configs from older versions are automatically moved to the new location.
+
+---
+
+# How to update
+
+1. Open the latest release.
+2. Download **ezware.exe**.
+3. Replace your old executable with the new one.
+
+ezware also checks for updates automatically every time it starts.
+
+
+
+
+
+
 ## Windows Security notice
 
 Windows Security or another antivirus might warn about, block, or remove ezware. This can happen because of how the program works.
