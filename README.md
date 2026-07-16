@@ -2,7 +2,7 @@
 
 The official place to download ezware and see what changed.
 
-> **Educational use only:** This project is provided for learning and research. Do not use it in live or public games. Follow Roblox's rules and the rules of any game or service you use.
+> **Educational use only:** This project is provided for learning and authorized testing. Do not use it in live or public games. Follow Roblox's rules and the rules of any game or service you use.
 
 **[Download the latest version](https://github.com/kingofcheating/ezware-updates/releases/latest)**
 
@@ -15,6 +15,10 @@ The official place to download ezware and see what changed.
 - Configs that you can save, load, edit, and use automatically when ezware starts
 - Config backups to help recover your settings if a save fails
 - Support for configs made with older versions
+- A configurable Aimbot with FOV, smoothness, target-part, team-check, and sticky-target controls
+- Silent Aim input capture with one-shot clicks and rapid-click queuing
+- Triggerbot controls for radius, team check, delay, and cooldown
+- Safer camera, target-selection, projection, and input handling
 - An update checker that shows your version and the newest version
 - A button on the startup screen that opens the latest release
 - Clear messages when an update is checked, downloaded, or fails
@@ -45,10 +49,12 @@ Anyone with programming or security experience can inspect or decompile the file
 
 ## Latest version
 
-**v1.0.3 — Protection Update**
+**v1.0.4 — Aim & Reliability Update**
 
-[Read the v1.0.3 update notes](https://github.com/kingofcheating/ezware-updates/releases/tag/v1.0.3)
+Highlights include reworked Silent Aim click handling, rapid-click queuing, corrected camera rotation and address traversal, functional Trigger Radius controls, and stronger validation throughout the Aim section.
+
+[Read the v1.0.4 update notes](https://github.com/kingofcheating/ezware-updates/releases/tag/v1.0.4)
 
 ## Important notice
 
-This project is for educational and research purposes only. It is not intended for use in live or public games. You are responsible for following Roblox's Terms of Use and all other rules that apply.
+This project is for educational and authorized testing purposes only. It is not intended for use in live or public games. You are responsible for following Roblox's Terms of Use and all other rules that apply.
