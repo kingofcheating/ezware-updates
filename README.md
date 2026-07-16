@@ -1,4 +1,4 @@
-<h1 align="center">ezware ezware</h1>
+<h1 align="center">ezware </h1>
 
 <p align="center"><strong>Official downloads - release notes - verified updates</strong></p>
 
