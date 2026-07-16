@@ -45,7 +45,13 @@ ezware also checks for updates when it starts.
 
 Windows Security or another antivirus may warn about or quarantine ezware. That can happen because ezware is an unsigned Windows application and uses behavior that security tools watch closely: it opens the Roblox process, reads and writes process memory, captures mouse clicks, simulates mouse input, connects over HTTPS for updates and offsets, and replaces its own executable during an update.
 
-**Is ezware safe?** Based on our review of the current code, we consider the official GitHub release safe for its intended authorized-testing use. It does not contain the credential-stealing, browser-data collection, or persistence behavior listed below. No software can honestly be guaranteed risk-free, so download only the official build and review the verification details.
+**Security review result for v1.0.4:** We audited every source file included in the Visual Studio project, checked the build configuration for hidden commands, reviewed its network, persistence, credential-access, injection, input, and updater paths, inspected the compiled executable's dependencies, and scanned the final build with Microsoft Defender. Defender reported **no threats found**. Based on that review, we consider the official v1.0.4 GitHub build safe for its intended authorized-testing use.
+
+The reviewed `ezware.exe` is unsigned, which can still cause reputation or heuristic warnings. Its SHA-256 is:
+
+`DE76A1B52F464C6639ACEF5340C24D03A59F0AF6539A6373841C0B1B9202461F`
+
+This conclusion applies to the official file matching that hash, not reuploads or modified copies.
 
 Those behaviors explain why a heuristic scanner may be cautious, but they do **not** prove that every warning is a false positive. Always read the exact detection instead of ignoring it automatically.
 
