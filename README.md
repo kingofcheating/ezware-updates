@@ -45,6 +45,8 @@ ezware also checks for updates when it starts.
 
 Windows Security or another antivirus may warn about or quarantine ezware. That can happen because ezware is an unsigned Windows application and uses behavior that security tools watch closely: it opens the Roblox process, reads and writes process memory, captures mouse clicks, simulates mouse input, connects over HTTPS for updates and offsets, and replaces its own executable during an update.
 
+**Is ezware safe?** Based on our review of the current code, we consider the official GitHub release safe for its intended authorized-testing use. It does not contain the credential-stealing, browser-data collection, or persistence behavior listed below. No software can honestly be guaranteed risk-free, so download only the official build and review the verification details.
+
 Those behaviors explain why a heuristic scanner may be cautious, but they do **not** prove that every warning is a false positive. Always read the exact detection instead of ignoring it automatically.
 
 ### Do I need to disable real-time protection?
