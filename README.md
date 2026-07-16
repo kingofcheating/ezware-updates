@@ -1,8 +1,6 @@
-<h1 align="center">◆ ezware</h1>
+<h1 align="center">ezware ezware</h1>
 
-<p align="center">
-  <strong>Official downloads · release notes · verified updates</strong>
-</p>
+<p align="center"><strong>Official downloads - release notes - verified updates</strong></p>
 
 <p align="center">
   <a href="https://github.com/kingofcheating/ezware-updates/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/kingofcheating/ezware-updates?style=for-the-badge&color=7c6cff&label=LATEST"></a>
@@ -12,20 +10,16 @@
 </p>
 
 <p align="center">
-  A standalone Windows application with a configurable interface,<br>
-  durable profiles, and built-in update verification.
+  A standalone Windows application with a streamlined interface,<br>
+  durable profiles, automatic frame pacing, and verified updates.
 </p>
 
 <p align="center">
   <a href="https://github.com/kingofcheating/ezware-updates/releases/latest"><strong>Download latest release</strong></a>
-  ·
-  <a href="#getting-started">Getting started</a>
-  ·
-  <a href="#security--verification">Security</a>
-  ·
-  <a href="https://github.com/kingofcheating/ezware-updates/releases">Version history</a>
-  ·
-  <a href="https://discord.gg/xAQ8WJVHe9">Discord</a>
+  - <a href="#getting-started">Getting started</a>
+  - <a href="#security--verification">Security</a>
+  - <a href="CHANGELOG.md">Changelog</a>
+  - <a href="https://discord.gg/xAQ8WJVHe9">Discord</a>
 </p>
 
 > [!IMPORTANT]
@@ -33,104 +27,93 @@
 
 ## At a glance
 
-| Experience | Reliability | Updates |
+| Interface | Reliability | Updates |
 | :--- | :--- | :--- |
-| Smooth, DPI-aware dark interface | Durable configs with recovery backups | Automatic version checks |
-| Custom colors, crosshair, FPS, and visuals | Safer input, camera, and projection handling | SHA-256 validation before installation |
-| 60–360 FPS caps or Unlimited | Legacy profile migration and support | Clear installed/latest version status |
+| Six focused sections | Durable profiles with recovery backups | Automatic version checks |
+| Unified Visuals workspace | Read-only safety mode by default | SHA-256 validation |
+| Smooth, consistent animations | Automatic display-aware pacing | Clear installed/latest status |
 
 ## Features
 
 <details open>
-<summary><strong>Aim and input</strong></summary>
+<summary><strong>Interface and visuals</strong></summary>
 
-- Configurable Aimbot with FOV, smoothing, target part, team check, and sticky targeting
-- Silent Aim with physical-click handling and rapid-click queuing
-- Triggerbot with adjustable radius, delay, cooldown, and team check
-- Hardened camera, projection, target selection, and input delivery
-
-</details>
-
-<details>
-<summary><strong>Visuals and interface</strong></summary>
-
-- Customizable player visuals, crosshair, hit feedback, FPS counter, and accent color
-- Smooth animations, responsive layout, and properly scaled text
-- Render-rate options for **60, 144, 165, 240, 360, or Unlimited**
-- Clear connection, safety, profile, and update status
+- Home, Aim, Visuals, Movement, Profiles, and Settings navigation
+- Configurable player overlay, crosshair, hit feedback, FPS display, colors, and previews
+- Smooth opening, closing, tab, control, tooltip, and notification animations
+- DPI-aware scaling, opacity, privacy mode, watermark, and notification controls
 
 </details>
 
 <details>
-<summary><strong>Profiles and updates</strong></summary>
+<summary><strong>Profiles and safety</strong></summary>
 
-- Save, load, edit, and automatically load profiles
-- Atomic saves, persistent recovery backups, and older-config support
-- Built-in update checker with verified GitHub release downloads
+- Save, load, update, delete, and automatically load profiles
+- Unsaved-change protection, recovery backups, and legacy profile migration
+- Read-only mode blocks input automation and process-memory writes while visuals remain available
+- Clear connection, safety, active-profile, and diagnostics status
+
+</details>
+
+<details>
+<summary><strong>Performance and updates</strong></summary>
+
+- Automatic frame pacing follows the active display between 60 and 240 FPS
+- Avoids redundant overlay repositioning when the game window has not changed
+- Built-in update checker with GitHub release downloads and SHA-256 verification
 - Runs as a separate Windows application without DLL injection
 
 </details>
 
-## Current development
-
-The next app build expands customization and quality-of-life controls:
-
-- Privacy mode with an **F10** shortcut for hiding player and profile names
-- Configurable watermark with FPS, profile, position, and visibility controls
-- Menu scale and opacity controls
-- Notification position, duration, scale, and optional sounds
-- Efficient, Balanced, and Responsive performance presets
-- Live diagnostics for connection, process, entities, viewport, frame time, and offsets
-- Saved preferences with automatic migration from older profile versions
-- Expanded box, label, snapline, health-bar, crosshair, hit-marker, and FPS styling
-
-> These changes are present in the current development build. Downloadable release assets are updated separately.
-
 ## Getting started
 
 1. Open the [latest release](https://github.com/kingofcheating/ezware-updates/releases/latest).
-2. Read its notes and expand **Assets**.
-3. Download **`ezware.exe`** from this repository only.
-4. Confirm the filename, version, and published SHA-256 value.
-5. Launch the application and choose your preferred render rate.
+2. Read the release notes and expand **Assets**.
+3. Download **`ezware.exe`** and **`ezware.exe.sha256`**.
+4. Verify the executable against the published checksum.
+5. Launch the application. Performance is configured automatically.
 
 > [!TIP]
 > ezware checks for new releases on startup. To update manually, replace the old executable with the newer verified file.
 
-## Config location
+## Controls
+
+| Key | Action |
+| :--- | :--- |
+| `Insert` | Show or hide the menu |
+| `F10` | Toggle privacy mode |
+| `End` | Request a safe exit |
+
+## Profile location
 
 ```text
 %LocalAppData%\ezware\Vault
 ```
 
-Profiles are kept outside temporary storage. Compatible profiles from the older location are migrated automatically when possible.
+Profiles are stored outside temporary directories. Compatible profiles from the older location are migrated automatically when possible.
 
 ## Security & verification
 
-ezware opens the Roblox process, reads and writes memory, sends mouse input, connects to GitHub for updates, and can replace its executable during an update. Security tools may scrutinize those behaviors, especially because the application is not digitally signed.
+ezware can open the Roblox process, read and write memory, send mouse input, connect to GitHub for updates, and replace its executable during an update. Security tools may scrutinize those behaviors, especially because the application is not digitally signed.
 
 Before running a download:
 
 - Use only the [official releases page](https://github.com/kingofcheating/ezware-updates/releases).
-- Confirm the filename, version, and published SHA-256 value.
-- Review warnings rather than dismissing them automatically.
+- Download the checksum beside the executable.
+- Review security warnings instead of dismissing them automatically.
 - Do not trust mirrors, reuploads, or files shared through direct messages.
 
 ### Latest reviewed build
 
-| Version | Microsoft Defender | Code signing |
+| Version | SHA-256 | Code signing |
 | :--- | :--- | :--- |
+| **v1.0.5** | `749d22df28883726025495b1baa777a2e3df4f77baa162bef312f986fec06d32` | Not digitally signed |
 
-| **v1.0.4** | No threats found during the release review | Not digitally signed |
+This value applies only to the official file with that exact hash. It is not a guarantee for modified or reuploaded copies.
 
-```text
-SHA-256  DE76A1B52F464C6639ACEF5340C24D03A59F0AF6539A6373841C0B1B9202461F
-```
-
-This result applies only to the official file with that exact hash. It is not a guarantee for modified or reuploaded copies.
+See [SECURITY.md](SECURITY.md) for vulnerability reporting guidance.
 
 ---
 
-<p align="center">
-  <sub>◆ ezware · Windows x64 · official releases only</sub>
-</p>
+<p align="center"><sub>ezware ezware - Windows x64 - official releases only</sub></p>
+
