@@ -1,3 +1,3 @@
-# NullSyntax Updates
+# ezware Updates
 
-Official release channel for NullSyntax automatic updates.
+Official release channel for ezware automatic updates.
