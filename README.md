@@ -41,11 +41,35 @@ They are not stored in a temporary folder, so clearing temporary files will not 
 
 ezware also checks for updates when it starts.
 
-## Antivirus false positives
+## Windows Security notice
 
-Some antivirus programs may warn about ezware because it is an unsigned Windows app that connects to another process, uses mouse input, and updates itself. These are common reasons for automatic scanner warnings, but a warning should still be taken seriously.
+Windows Security or another antivirus may warn about or quarantine ezware. That can happen because ezware is an unsigned Windows application and uses behavior that security tools watch closely: it opens the Roblox process, reads and writes process memory, captures mouse clicks, simulates mouse input, connects over HTTPS for updates and offsets, and replaces its own executable during an update.
 
-Anyone with programming or security experience can inspect or decompile the file to review how it works. This can help people make their own decision, but it is not a guarantee that any program is safe. Only download ezware from this GitHub page and compare the file's SHA-256 value with the one shown in the release.
+Those behaviors explain why a heuristic scanner may be cautious, but they do **not** prove that every warning is a false positive. Always read the exact detection instead of ignoring it automatically.
+
+### Do I need to disable real-time protection?
+
+We do not recommend leaving Windows real-time protection disabled or adding a broad folder exclusion. If Windows blocks the file:
+
+1. Make sure it came from this repository's official release page.
+2. Check the release version and the file's SHA-256 hash when one is provided.
+3. Open **Windows Security → Virus & threat protection → Protection history** and review the exact detection.
+4. Only choose **Allow on device** if you understand the warning and trust the file.
+
+If you temporarily disable real-time protection for testing in an isolated, authorized environment, turn it back on immediately afterward. Never disable protection to run a file obtained from a reupload, direct message, link shortener, or unknown mirror.
+
+### What the program does — and does not do
+
+The current code was reviewed for the behaviors most people reasonably worry about:
+
+- It does not inject a DLL or create a remote thread inside Roblox.
+- It does not collect browser cookies, passwords, authentication tokens, or account credentials.
+- It does not install a Windows service, scheduled task, or startup registry entry.
+- Its network access is used for the GitHub update check and the runtime offset source.
+- The updater validates the downloaded executable before replacing the current version.
+- Settings stay in `%LocalAppData%\ezware\Vault`.
+
+That is a description of the current design, not an unconditional safety guarantee. Only run software when you trust its source and understand what it does.
 
 ## Latest version
 
