@@ -37,11 +37,17 @@ They are not stored in a temporary folder, so clearing temporary files will not 
 
 ezware also checks for updates when it starts.
 
+## Antivirus false positives
+
+Some antivirus programs may warn about ezware because it is an unsigned Windows app that connects to another process, uses mouse input, and updates itself. These are common reasons for automatic scanner warnings, but a warning should still be taken seriously.
+
+Anyone with programming or security experience can inspect or decompile the file to review how it works. This can help people make their own decision, but it is not a guarantee that any program is safe. Only download ezware from this GitHub page and compare the file's SHA-256 value with the one shown in the release.
+
 ## Latest version
 
-**v1.0.2 — Stable External Update**
+**v1.0.3 — Protection Update**
 
-[Read the v1.0.2 update notes](https://github.com/kingofcheating/ezware-updates/releases/tag/v1.0.2)
+[Read the v1.0.3 update notes](https://github.com/kingofcheating/ezware-updates/releases/tag/v1.0.3)
 
 ## Important notice
 
