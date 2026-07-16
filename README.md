@@ -2,6 +2,8 @@
 
 The official place to download ezware and see what changed.
 
+> **Educational use only:** This project is provided for learning and research. Do not use it in live or public games. Follow Roblox's rules and the rules of any game or service you use.
+
 **[Download the latest version](https://github.com/kingofcheating/ezware-updates/releases/latest)**
 
 ## What's included
@@ -41,4 +43,6 @@ ezware also checks for updates when it starts.
 
 [Read the v1.0.2 update notes](https://github.com/kingofcheating/ezware-updates/releases/tag/v1.0.2)
 
-Use ezware responsibly and follow the rules of the games and services you use.
+## Important notice
+
+This project is for educational and research purposes only. It is not intended for use in live or public games. You are responsible for following Roblox's Terms of Use and all other rules that apply.
