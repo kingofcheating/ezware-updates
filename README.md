@@ -7,6 +7,7 @@
 <p align="center">
   <a href="https://github.com/kingofcheating/ezware-updates/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/kingofcheating/ezware-updates?style=for-the-badge&color=7c6cff&label=LATEST"></a>
   <a href="https://github.com/kingofcheating/ezware-updates/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/kingofcheating/ezware-updates/total?style=for-the-badge&color=7c6cff"></a>
+  <a href="https://discord.gg/xAQ8WJVHe9"><img alt="Discord" src="https://img.shields.io/badge/Discord-join-7c6cff?style=for-the-badge&logo=discord&logoColor=white"></a>
   <img alt="Windows x64" src="https://img.shields.io/badge/Windows-x64-7c6cff?style=for-the-badge&logo=windows11&logoColor=white">
 </p>
 
@@ -23,6 +24,8 @@
   <a href="#security--verification">Security</a>
   ·
   <a href="https://github.com/kingofcheating/ezware-updates/releases">Version history</a>
+  ·
+  <a href="https://discord.gg/xAQ8WJVHe9">Discord</a>
 </p>
 
 > [!IMPORTANT]
