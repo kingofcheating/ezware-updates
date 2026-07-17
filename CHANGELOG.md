@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.0.7] - 2026-07-17
+
+### Fixed
+
+- Validated runtime offsets only after the running Roblox client version is known.
+- Removed undefined unaligned pointer reads from child-list traversal.
+- Shut down cleanly when DirectX presentation fails instead of repeatedly rendering into a failed swap chain.
+
+### Performance
+
+- Moved remote player and entity memory reads outside the shared render/scanner mutex.
+- Reused the process write handle instead of reopening it for every memory write.
+- Replaced quadratic entity duplicate checks with hash-based lookups.
+- Reduced contention between entity cleanup, cache refreshes, and frame rendering.
+
 ## [1.0.6] - 2026-07-17
 
 ### Fixed
