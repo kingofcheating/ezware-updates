@@ -14,6 +14,9 @@
   durable profiles, automatic frame pacing, and verified updates.
 </p>
 
+> [!NOTE]
+> **Safety status:** The official v1.0.6 download has been verified against its published SHA-256 checksum (`23916dd38bc743819302b80c1fc7b96b4f373005d241bcd76fc61cf4e5325ad2`). ezware starts in read-only mode, runs as a separate application without DLL injection, and stores profiles locally. Download only from this repository and verify the checksum yourself. The executable is not digitally signed, and checksum verification confirms file integrity—not that every possible use is risk-free.
+
 <p align="center">
   <a href="https://github.com/kingofcheating/ezware-updates/releases/latest"><strong>Download latest release</strong></a>
   - <a href="#getting-started">Getting started</a>
