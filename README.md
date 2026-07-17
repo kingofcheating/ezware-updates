@@ -136,6 +136,9 @@
 - Matches downloaded offsets to the active Roblox client before using them
 - Rejects incomplete update and offset downloads
 - Render-target recovery and clean shutdown after DirectX presentation failures
+- Safe minimize/restore behavior without occluded presentation busy loops
+- Server-switch protection that discards scans from an obsolete DataModel
+- Stricter profile, updater-response, and runtime-offset validation
 - Clean shutdown of process handles, overlay state, and UI backends
 - Long-session timer support and accurate embedded version information
 
