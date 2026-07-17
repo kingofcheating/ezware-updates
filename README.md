@@ -5,13 +5,16 @@
 <p align="center">
   <a href="https://github.com/kingofcheating/ezware-updates/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/kingofcheating/ezware-updates?style=for-the-badge&color=7c6cff&label=LATEST"></a>
   <a href="https://github.com/kingofcheating/ezware-updates/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/kingofcheating/ezware-updates/total?style=for-the-badge&color=7c6cff"></a>
+  <img alt="Windows x64" src="https://img.shields.io/badge/Windows-x64-7c6cff?style=for-the-badge&logo=windows11&logoColor=white">
   <a href="https://discord.gg/xAQ8WJVHe9"><img alt="Discord" src="https://img.shields.io/badge/Discord-join-7c6cff?style=for-the-badge&logo=discord&logoColor=white"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/kingofcheating/ezware-updates/releases/latest"><strong>Download</strong></a>
-  · <a href="CHANGELOG.md">Changelog</a>
-  · <a href="SECURITY.md">Security</a>
+  · <a href="#features">Features</a>
+  · <a href="#quick-start">Quick start</a>
+  · <a href="#controls">Controls</a>
+  · <a href="#help--updates">Help</a>
 </p>
 
 ---
@@ -21,6 +24,12 @@
 
 > [!IMPORTANT]
 > For educational and authorized testing only. Do not use in live or public games.
+
+## At a glance
+
+| Platform | Graphics | Profiles | Updates |
+| :---: | :---: | :---: | :---: |
+| Windows 10/11 x64 | DirectX 11 | Stored locally | Built in |
 
 ## Features
 
@@ -129,6 +138,16 @@
 
 </details>
 
+## Quick start
+
+1. Open the [latest release](https://github.com/kingofcheating/ezware-updates/releases/latest).
+2. Expand **Assets** and download `ezware.exe`.
+3. Launch it on Windows 10 or 11 with a DirectX 11-capable system.
+4. Press `Insert` to open the menu.
+
+> [!TIP]
+> Start with **Visual-only setup** or leave **Read-only mode** enabled while exploring the interface.
+
 ## Controls
 
 | Key | Action |
@@ -136,6 +155,13 @@
 | `Insert` | Toggle menu |
 | `F10` | Privacy mode |
 | `End` | Safe exit |
+
+## Help & updates
+
+- Read the [changelog](CHANGELOG.md) for version history.
+- Use the [bug report form](https://github.com/kingofcheating/ezware-updates/issues/new?template=bug_report.yml) for reproducible problems.
+- Follow the [security policy](SECURITY.md) for private vulnerability reports.
+- Join the [Discord community](https://discord.gg/xAQ8WJVHe9) for general help.
 
 ---
 
