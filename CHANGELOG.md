@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.0.9] - 2026-07-17
+
+### Fixed
+
+- Recovered safely from DirectX resize failures instead of leaving the overlay without a render target.
+- Hid and throttled the overlay while Roblox is minimized, then restored it without activation.
+- Cleared stale view matrices and viewport dimensions when live reads fail during transitions.
+- Discarded entity scans collected from an old DataModel after a server switch.
+- Reset trigger hover timing when cursor conversion fails.
+- Rejected invalid profile names before deletion and invalid loaded hotkeys before use.
+- Suppressed distance labels until the local-player position is available.
+- Reopened cached process write access if Windows invalidates the handle.
+- Hardened updater asset selection, network progress checks, and offset number bounds.
+
+### Performance
+
+- Removed redundant entity duplicate scanning.
+- Avoided occluded presentation busy loops while Roblox is minimized.
+
+### Changed
+
+- Enabled Level 4 compiler warnings for every application configuration.
+
 ## [1.0.8] - 2026-07-17
 
 ### Changed
