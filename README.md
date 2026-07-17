@@ -29,7 +29,7 @@
 
 | Interface | Reliability | Updates |
 | :--- | :--- | :--- |
-| Six focused sections | Durable profiles with recovery backups | Automatic version checks |
+| Six focused sections | Crash-safe profiles with recovery backups | Automatic version checks |
 | Unified Visuals workspace | Read-only safety mode by default | SHA-256 validation |
 | Smooth, consistent animations | Automatic display-aware pacing | Clear installed/latest status |
 
@@ -49,7 +49,7 @@
 <summary><strong>Profiles and safety</strong></summary>
 
 - Save, load, update, delete, and automatically load profiles
-- Unsaved-change protection, recovery backups, and legacy profile migration
+- Bounded profile I/O, unsaved-change protection, recovery backups, and legacy profile migration
 - Read-only mode blocks input automation and process-memory writes while visuals remain available
 - Clear connection, safety, active-profile, and diagnostics status
 
@@ -107,7 +107,7 @@ Before running a download:
 
 | Version | SHA-256 | Code signing |
 | :--- | :--- | :--- |
-| **v1.0.5** | `749d22df28883726025495b1baa777a2e3df4f77baa162bef312f986fec06d32` | Not digitally signed |
+| **v1.0.6** | `23916dd38bc743819302b80c1fc7b96b4f373005d241bcd76fc61cf4e5325ad2` | Not digitally signed |
 
 This value applies only to the official file with that exact hash. It is not a guarantee for modified or reuploaded copies.
 
@@ -115,5 +115,5 @@ See [SECURITY.md](SECURITY.md) for vulnerability reporting guidance.
 
 ---
 
-<p align="center"><sub>ezware ezware - Windows x64 - official releases only</sub></p>
+<p align="center"><sub>ezware - Windows x64 - official releases only</sub></p>
 

@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.0.6] - 2026-07-17
+
+### Fixed
+
+- Fixed the crash that could occur when saving or updating a profile.
+- Reworked profile, autoload, and compatibility-file I/O with bounded native file operations.
+- Rejected incomplete updater and offset responses instead of accepting truncated downloads.
+- Fixed long-session timers that could wrap after roughly 49 days of Windows uptime.
+- Added reliable cleanup for process handles, overlay state, and partially initialized UI backends.
+- Corrected the version shown at startup and in the executable's Windows properties.
+
+### Changed
+
+- Removed the unused integration tab and kept navigation focused on the six working pages.
+- Tightened update-version validation and DirectX render-target recovery.
+- Limited the supported build target to Windows x64.
+
 ## [1.0.5] - 2026-07-16
 
 ### Changed
