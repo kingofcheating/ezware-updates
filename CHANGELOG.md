@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.8] - 2026-07-17
+
+### Changed
+
+- Replaced custom monitor-rate detection and manual frame sleeping with standard DirectX VSync presentation.
+- Diagnostics now show the measured render rate instead of an artificial automatic FPS target.
+
+### Performance
+
+- Removed the process-wide one-millisecond Windows timer-resolution request.
+- Removed custom frame-scheduling state and redundant monitor refresh-rate polling.
+- Prevented an uncapped busy loop while allowing DirectX to pace frames to the active display.
+
 ## [1.0.7] - 2026-07-17
 
 ### Fixed

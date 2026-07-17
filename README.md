@@ -128,7 +128,7 @@
 <summary><strong>Performance, updates, and reliability</strong></summary>
 
 - DirectX 11 external overlay without DLL injection
-- Display-aware automatic frame pacing from 60 to 240 FPS
+- Standard DirectX VSync pacing that follows the active display
 - Avoids unnecessary overlay repositioning when the target window is unchanged
 - Keeps remote player and entity reads outside the shared render/scanner lock
 - Uses efficient entity deduplication and reuses process handles for repeated writes
