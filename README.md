@@ -130,9 +130,12 @@
 - DirectX 11 external overlay without DLL injection
 - Display-aware automatic frame pacing from 60 to 240 FPS
 - Avoids unnecessary overlay repositioning when the target window is unchanged
+- Keeps remote player and entity reads outside the shared render/scanner lock
+- Uses efficient entity deduplication and reuses process handles for repeated writes
 - Built-in version checking and release updates
+- Matches downloaded offsets to the active Roblox client before using them
 - Rejects incomplete update and offset downloads
-- Render-target recovery after DirectX interruptions
+- Render-target recovery and clean shutdown after DirectX presentation failures
 - Clean shutdown of process handles, overlay state, and UI backends
 - Long-session timer support and accurate embedded version information
 
