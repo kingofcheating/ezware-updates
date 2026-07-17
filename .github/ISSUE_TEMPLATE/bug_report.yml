@@ -1,0 +1,73 @@
+name: Bug report
+description: Tell us about something that is not working correctly.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. Please do not include passwords, private files, or other sensitive information.
+
+  - type: input
+    id: version
+    attributes:
+      label: ezware version
+      description: You can find this in the app or on the release page.
+      placeholder: v1.0.6
+    validations:
+      required: true
+
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Explain the problem and what you were doing when it happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps that make the problem happen again.
+      placeholder: |
+        1. Open...
+        2. Click...
+        3. See the error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Extra details
+      description: Add screenshots or error messages if they help. Remove private information first.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I downloaded ezware from the official GitHub release page.
+          required: true
+        - label: I checked that this issue has not already been reported.
+          required: true

@@ -1,4 +1,4 @@
-<h1 align="center">ezware </h1>
+<h1 align="center">ezware</h1>
 
 <p align="center"><strong>Official downloads - release notes - verified updates</strong></p>
 
@@ -29,7 +29,7 @@
 
 | Interface | Reliability | Updates |
 | :--- | :--- | :--- |
-| Six focused sections | Crash-safe profiles with recovery backups | Automatic version checks |
+| Six focused sections | Reliable profiles with recovery backups | Automatic version checks |
 | Unified Visuals workspace | Read-only safety mode by default | SHA-256 validation |
 | Smooth, consistent animations | Automatic display-aware pacing | Clear installed/latest status |
 
@@ -49,7 +49,7 @@
 <summary><strong>Profiles and safety</strong></summary>
 
 - Save, load, update, delete, and automatically load profiles
-- Bounded profile I/O, unsaved-change protection, recovery backups, and legacy profile migration
+- Safer profile saving, unsaved-change protection, recovery backups, and legacy profile migration
 - Read-only mode blocks input automation and process-memory writes while visuals remain available
 - Clear connection, safety, active-profile, and diagnostics status
 
